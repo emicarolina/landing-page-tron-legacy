@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(14, 10, 51);
+}
+.titulo {
+  color: rgb(206, 202, 218);
+  text-shadow: 0px 0px 18px rgba(109, 177, 194, 1);
+  font-weight: bold;
+  font-size: 40px;
+  justify-self: center;
+  font-family: Lexend;
+  padding: 40px;
+}
+.container {
+  justify-content: center;
+}
+.row-1,
+.row-2 {
+  display: flex;
+  padding: 20px;
+}
+.row-1 img,
+.row-2 img {
+  border-radius: 30px;
+  width: 300px;
+}
+.row-2 {
+  padding-bottom: 50px;
+}
+.texts {
+  margin: 10px;
+  color: white;
+}
+.texts h1 {
+  margin: 10px;
+  color: #00d9ff;
+}
